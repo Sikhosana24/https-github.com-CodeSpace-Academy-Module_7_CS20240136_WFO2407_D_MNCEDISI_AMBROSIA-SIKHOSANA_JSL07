@@ -42,6 +42,7 @@ button:hover {
 /* Certificate Modal */
 
 .modal {
+    display:none;
     max-width: 800px;
     margin: 0 auto; /* Center horizontally */
     position: fixed;
@@ -100,7 +101,7 @@ h1, .modal-content h2, .modal-content p {
 
 /* Adding a fancy border to the certificate content */
 #certificateContent {
-  background: #f9f9f9 url('path/to/your/decorative-border-image.png') center/contain no-repeat;
+  background: #f9f9f9 url('logo.png') center/contain no-repeat;
 }
 
 /* Adjust button styles to fit the theme */
